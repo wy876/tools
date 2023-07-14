@@ -19,3 +19,8 @@
 ## 文件管理
 ![Image text](https://github.com/wy876/img-folder/blob/main/3.png)
 
+# 用到的技术
+```
+https://yzddmr6.com/posts/%E8%81%8A%E8%81%8A%E6%96%B0%E7%B1%BB%E5%9E%8BASPXCSharp/
+https://github.com/AntSwordProject/AntSword-Csharp-Template
+```
