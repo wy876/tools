@@ -1,0 +1,125 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        WindowState="Normal"
+        Title="金牛Webshell管理软件" 
+        Height="700" 
+        Width="1120" 
+        WindowStartupLocation="CenterScreen"
+        Icon="Images/m.png">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Menu DockPanel.Dock="Top" >
+                <MenuItem Header="设置" Height="46" FontSize="16">
+                    <MenuItem.Icon>
+                        <Image Height="20" Source="Images/sz.png"/>
+                    </MenuItem.Icon>
+
+                    <MenuItem Header="代理设置" Click="MenuItem_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Images/dlsz.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="关于程序" Click="MenuItem_Click_6" >
+                        <MenuItem.Icon>
+                            <Image Source="Images/guangyu.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+            </Menu>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="210"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <GroupBox Header="分组">
+                    <TreeView x:Name="TreeView" >
+                        <TreeView.Resources>
+                            <Style TargetType="{x:Type TreeViewItem}" >
+                                <Setter Property="HeaderTemplate">
+                                    <Setter.Value>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <Image Width="20" Margin="3"  Source="Images/folder-closed.png" PreviewMouseUp="TreeViewItem_PreviewMouseUp"  />
+                                                <TextBlock VerticalAlignment="Center" Text="{Binding}" PreviewMouseUp="TreeViewItem_PreviewMouseUp" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </TreeView.Resources>
+                    </TreeView>
+                </GroupBox>
+                
+            </Grid>
+            <Grid Grid.Column="1">
+                <GroupBox Header="数据管理">
+                    <ListView Name="ListView" PreviewMouseRightButtonDown="ListView_PreviewMouseRightButtonDown" >
+                        <ListView.View >
+                            <GridView>
+                                <GridViewColumn Header="ID" Width="60" DisplayMemberBinding="{Binding ID}"/>
+                                <GridViewColumn Header="URL地址" Width="200" DisplayMemberBinding="{Binding url}" />
+                                <GridViewColumn Header="密码" Width="100" DisplayMemberBinding="{Binding Password}"/>
+                                <GridViewColumn Header="IP地址" Width="100" DisplayMemberBinding="{Binding Ip}"/>
+                                <GridViewColumn Header="脚本类型" Width="100" DisplayMemberBinding="{Binding Script}" />
+                                <GridViewColumn Header="编码器" Width="100"  DisplayMemberBinding="{Binding Encode}" />
+                                <GridViewColumn Header="物理地址" Width="200" DisplayMemberBinding="{Binding address}" />
+                                <GridViewColumn Header="分类" Width="100" DisplayMemberBinding="{Binding defaults}"/>
+                                <GridViewColumn Header="创建时间" Width="100"  DisplayMemberBinding="{Binding Creation_time}" />
+                                <GridViewColumn Header="修改时间" Width="100" DisplayMemberBinding="{Binding Modification_time}" />
+                            </GridView>
+                        </ListView.View>
+                        <ListView.ContextMenu>
+                            <ContextMenu Name="ListMenu">
+                                <MenuItem Name="Virtual_terminals" Header="虚拟终端" Click="Virtual_terminals_Click">
+                                    <MenuItem.Icon>
+                                        <Image Source="Images/cmd.png"/>
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Name="File_management" Header="文件管理" Click="MenuItem_Click_5">
+                                    <MenuItem.Icon>
+                                        <Image Source="Images/folder-closed.png"/>
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Name="DB_operate" Header="数据操作" Click="DB_operate_Click">
+                                    <MenuItem.Icon>
+                                        <Image Source="Images/db.png"/>
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Name="Add_data" Header="添加数据"  Click="MenuItem_Click">
+                                    <MenuItem.Icon>
+                                        <Image Source="Images/add.png"/>
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Name="Edit_data" Header="编辑数据" Click="MenuItem_Click_3">
+                                    <MenuItem.Icon>
+                                        <Image Source="Images/xg.png"/>
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Name="del_data" Header="删除数据" Click="MenuItem_Click_4">
+                                    <MenuItem.Icon>
+                                        <Image Source="Images/del.png"/>
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                            </ContextMenu>
+                        </ListView.ContextMenu>
+                    </ListView>
+                </GroupBox>
+                    
+            </Grid>
+        </Grid>
+       
+    </Grid>
+</Window>

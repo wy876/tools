@@ -1,0 +1,37 @@
+﻿<Window x:Class="WpfApp1.UI.aspx.ATrminals"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.UI.aspx"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen"
+        Icon="pack://application:,,,/Images/cmd.png"
+        Title="虚拟终端" Height="600" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="终端:" />
+        <Border
+            x:Name="bd"
+            Grid.Row="1"
+            Background="Black"
+            CornerRadius="10">
+
+            <TextBox
+                x:Name="MyTextBox"
+                Margin="5"
+                AcceptsReturn="True"
+                Background="Black"
+                BorderBrush="White"
+                Foreground="White"
+                TextWrapping="Wrap"
+                FontSize="19"
+                PreviewKeyDown="MyTextBox_PreviewKeyDown"
+                
+                VerticalScrollBarVisibility="Hidden" />
+        </Border>
+    </Grid>
+</Window>
