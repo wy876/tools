@@ -9,4 +9,7 @@
 1. 已完成 aspx，php  虚拟终端，文件管理，增删改查，文件上传，文件下载
 2. 实现http 代理
 
-   
+# 软件界面
+![Image text](https://github.com/wy876/img-folder/blob/main/1.png)
+
+
