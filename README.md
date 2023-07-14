@@ -10,6 +10,12 @@
 2. 实现http 代理
 
 # 软件界面
+## 主界面
 ![Image text](https://github.com/wy876/img-folder/blob/main/1.png)
 
+## 虚拟终端
+![Image text](https://github.com/wy876/img-folder/blob/main/2.png)
+
+## 文件管理
+![Image text](https://github.com/wy876/img-folder/blob/main/3.png)
 
