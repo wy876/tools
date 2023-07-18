@@ -10,6 +10,7 @@
 2. 实现http 代理
 
 # 软件界面
+使用github存放图片，国内网络加载不出来
 ## 主界面
 ![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkaVu4B56WGUBP5ZV0ib4NmOSx0wqHS2aB5ibr5fvEIYINpB9WqbmWOTtZA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
