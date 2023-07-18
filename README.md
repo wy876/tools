@@ -19,6 +19,10 @@
 ## 文件管理
 ![Image text](https://github.com/wy876/img-folder/blob/main/3.png)
 
+## http代理
+![](![image](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkapWsa1ElP4ibBMUYiabIgnl1INOcTzmaDBbPoIwh0SIrPLBkPZhG1GSSQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+
 # 用到的技术
 ```
 https://yzddmr6.com/posts/%E8%81%8A%E8%81%8A%E6%96%B0%E7%B1%BB%E5%9E%8BASPXCSharp/
