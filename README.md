@@ -11,13 +11,14 @@
 
 # 软件界面
 ## 主界面
-![Image text](https://github.com/wy876/img-folder/blob/main/1.png)
+![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkaVu4B56WGUBP5ZV0ib4NmOSx0wqHS2aB5ibr5fvEIYINpB9WqbmWOTtZA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ## 虚拟终端
-![Image text](https://github.com/wy876/img-folder/blob/main/2.png)
+![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkaSEjgvskXSTUjTT7O6hdPFHxYueUbSwpz2TicDptd7cAgGOnIyYHOYpg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMka9HaQmVxdMpeLesmEMicqtr4rKOzwpyjIYYicAvGXz1yqjDd9rDdA0h9Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ## 文件管理
-![Image text](https://github.com/wy876/img-folder/blob/main/3.png)
+![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkajibWdOOz5CqtClCQWbADEKIkib62QW6Cq3iaoa2yibZCQOI4ccjAnLWQTQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ## http代理
 ![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkapWsa1ElP4ibBMUYiabIgnl1INOcTzmaDBbPoIwh0SIrPLBkPZhG1GSSQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
