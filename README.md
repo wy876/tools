@@ -22,6 +22,7 @@
 ## http代理
 ![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkapWsa1ElP4ibBMUYiabIgnl1INOcTzmaDBbPoIwh0SIrPLBkPZhG1GSSQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 代理配置会存储在/data目录下的proxy.txt
+
 ![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkaJvBNf6AuDDicpLyCYw7kMhRUaeQBCvuaZPIVZhdJCjyBcJic5EvfehaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 ![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMkaLcxmwdf8qtribIzm1Mn3nibjfU57WHCHLhQpYAiaN6XcjB3pUozrDrvBg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 ![Image text](https://mmbiz.qpic.cn/sz_mmbiz_png/vOGOib9z4Wz48ZIDw8AK60UKE9tPtnMka6PY6SjolhPM661CRCZms4J9exUPsLYzOYjFblFib6SUlVZsAdXib0ibhg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
