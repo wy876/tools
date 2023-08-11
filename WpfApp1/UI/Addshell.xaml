@@ -1,0 +1,106 @@
+﻿<Window x:Class="WpfApp1.UI.Addshell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.UI"
+        mc:Ignorable="d"
+        Title="添加数据" Height="350" Width="800" WindowStartupLocation="CenterScreen"
+        Icon="pack://application:,,,/Images/add.png"
+        >
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--工具栏-->
+        <ToolBarPanel Background="White" Grid.Row="0" Height="36" Margin="0">
+            <ToolBar Height="36" Margin="0" Padding="0" VerticalAlignment="Stretch">
+                <Button  Width="60" VerticalAlignment="Stretch" Padding="0" Click="Button_Click_1"  >
+                    <WrapPanel >
+                        <Image Source="pack://application:,,,/Images/add.png" Width="15" Height="15" />
+                        <TextBlock Text="添加" VerticalAlignment="Center" />
+                    </WrapPanel>
+                </Button>
+                <Button Width="80" VerticalAlignment="Stretch" Padding="0" Click="Button_Click" >
+                    <WrapPanel >
+                        <Image Source="pack://application:,,,/Images/cs.png" Height="15" Width="20"/>
+                        <TextBlock Text="测试连接" />
+                    </WrapPanel>
+                </Button>
+            </ToolBar>
+        </ToolBarPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="36"/>
+                <RowDefinition Height="36"/>
+                <RowDefinition Height="36"/>
+                <RowDefinition Height="36"/>
+                <RowDefinition Height="36"/>
+                <RowDefinition Height="36"/>
+                <RowDefinition Height="36"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Label Content="连接地址：" FontSize="18" HorizontalAlignment="Left" Width="111" Margin="31,0,0,0"></Label>
+                <TextBox Name="url" Height="30" Margin="147,3,244,3" VerticalContentAlignment="Center" />
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <Label Content="连接密码：" FontSize="18" HorizontalAlignment="Left" Width="111" Margin="31,0,0,0"></Label>
+                <TextBox Name="Password" Height="30" Margin="147,3,244,3" VerticalContentAlignment="Center" />
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <Label Content="分类：" FontSize="18" HorizontalAlignment="Left" Width="111" Margin="31,0,0,0"></Label>
+                <TextBox Name="def" Text="Initial" VerticalContentAlignment="Center" Height="30" Margin="147,3,244,3"/>
+            </Grid>
+
+            <Grid Grid.Row="4">
+                <Label Content="编码器" FontSize="18" HorizontalAlignment="Left" Width="111" Margin="31,0,0,0"></Label>
+                <ComboBox Name="combox1" VerticalContentAlignment="Center" Height="30" Margin="147,3,244,3">
+                    <ComboBoxItem Content="Base64加密" />
+                    <ComboBoxItem Content="AES加密" />
+                </ComboBox>
+            </Grid>
+
+            <Grid Grid.Row="5">
+                <Label Content="脚本类型" FontSize="18" HorizontalAlignment="Left" Width="111" Margin="31,0,0,0"></Label>
+                <ComboBox Name="combox2" VerticalContentAlignment="Center" Height="30" Margin="147,3,244,3">
+                    <ComboBoxItem Content="php" />
+                    <ComboBoxItem Content="aspx" />
+                </ComboBox>
+            </Grid>
+
+
+        </Grid>
+
+
+        <!--  <Grid Grid.Row="1" >
+
+
+            
+            <Label Content="密码：" HorizontalAlignment="Left" Margin="33,104,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBox HorizontalAlignment="Left" Name="url" Margin="108,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225" Height="26"/>
+            <TextBox HorizontalAlignment="Left" Name="Password" Margin="108,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225" Height="26"/>
+
+            <Label Content="编码器：" HorizontalAlignment="Left" Margin="37,212,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,1.225"/>
+            <ComboBox HorizontalAlignment="Left" Name="combox1" Margin="143,219,0,0" VerticalAlignment="Top" Width="190" Height="22">
+                <ComboBoxItem>Base64加密</ComboBoxItem>
+                <ComboBoxItem>AES加密</ComboBoxItem>
+            </ComboBox>
+            <Label Content="脚本类型：" HorizontalAlignment="Left" Margin="33,265,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <ComboBox HorizontalAlignment="Left" Name="combox2" Margin="143,265,0,0" VerticalAlignment="Top" Width="190" Height="24">
+                <ComboBoxItem>php</ComboBoxItem>
+                <ComboBoxItem>aspx</ComboBoxItem>
+            </ComboBox>
+            <Button Content="测试" Click="Button_Click" HorizontalAlignment="Left" Margin="68,331,0,0" VerticalAlignment="Top" Width="100" Height="30" RenderTransformOrigin="0.38,-0.275" />
+            <Button Content="保存" Click="Button_Click_1" HorizontalAlignment="Left" Margin="220,331,0,0" VerticalAlignment="Top" Width="100" Height="30"/>
+            <Label Content="分类" HorizontalAlignment="Left" Margin="37,160,0,0" VerticalAlignment="Top" FontSize="20" />
+            <TextBox HorizontalAlignment="Left" Name="def" Margin="108,165,0,0" TextWrapping="Wrap" Text="defaults" VerticalAlignment="Top" Width="225" Height="26"/>
+        
+        </Grid>-->
+    </Grid>
+</Window>
