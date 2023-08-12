@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UI\About.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Addshell.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\aspx\AFileTree.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\aspx\ATrminals.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Createfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\db.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\DbAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\EditShell.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\FileList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\item.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Proxy.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\terminals.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\ViewFile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Window1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Addshell.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\aspx\AFileTree.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\aspx\ATrminals.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Createfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\db.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\DbAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\EditShell.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\FileList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\item.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Proxy.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\terminals.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\ViewFile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Window1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

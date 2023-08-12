@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfApp1.UI.Proxy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.UI"
+        mc:Ignorable="d"
+        Title="Proxy" Height="400" Width="500" WindowStartupLocation="CenterScreen"
+        Icon="pack://application:,,,/Images/dlsz.png"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Text="代理设置" Margin="20,10" FontSize="26"/>
+            <Label Content="" Name="take_effect"  FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Width="190"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <RadioButton Content="不使用代理" Name="box1" Click="box1_Click"  HorizontalAlignment="Left" Margin="59,32,0,0" Grid.Row="1" VerticalAlignment="Top" GroupName="group1" IsChecked="True" />
+            <RadioButton Content="手动设置代理" Name="box2" Click="box2_Click" HorizontalAlignment="Left" Margin="58,52,0,0" Grid.Row="1" VerticalAlignment="Top" GroupName="group1" />
+            <Label Content="代理协议" HorizontalAlignment="Left" Margin="58,89,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <Label Content="代理服务器" HorizontalAlignment="Left" Margin="58,139,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <Label Content="代理端口" HorizontalAlignment="Left" Margin="58,191,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <ComboBox VerticalContentAlignment="Center" HorizontalAlignment="Left" Name="combox1" Margin="150,91,0,0" Grid.Row="1" VerticalAlignment="Top" Width="175">
+                <ComboBoxItem Content="http"></ComboBoxItem>
+                <ComboBoxItem Content="https"></ComboBoxItem>
+            </ComboBox>
+            <TextBox Text="127.0.0.1" VerticalContentAlignment="Center" HorizontalAlignment="Left" Name="text1" Margin="150,139,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Height="25"/>
+            <TextBox Text="8080" VerticalContentAlignment="Center" HorizontalAlignment="Left" Name="text2" Margin="150,191,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Height="25"/>
+            <Button Content="保存" Click="Button_Click" Name="Button" HorizontalAlignment="Left" Margin="150,257,0,0" Grid.Row="1" VerticalAlignment="Top" Width="175" Height="30"/>
+
+            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="481,-72,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+
+
+
+
+
+    </Grid>
+
+
+</Window>

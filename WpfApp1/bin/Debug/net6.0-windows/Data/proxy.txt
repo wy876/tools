@@ -1,0 +1,1 @@
+{"Proxy_Agreement": "http","Proxy_Host": "192.168.78.152","Proxy_Prot": "8080"}
