@@ -28,9 +28,9 @@ eval(Decrypt(file_get_contents("php://input")));
 
 ### 加密效果
 
-![image-20230812222228181]([https://github.com/wy876/tools/blob/master/img/image-20230812222228181.png?raw=true](https://github.com/wy876/tools/blob/master/img/image-20230812222228181.png?raw=true)
+![image-20230812222228181](https://github.com/wy876/tools/blob/master/img/image-20230812222228181.png?raw=true)
 
-![image-20230812222254773](.\img\image-20230812222254773.png)
+![image-20230812222254773](https://github.com/wy876/tools/blob/master/img/image-20230812222254773.png?raw=true)
 
 
 
